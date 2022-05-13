@@ -1,18 +1,23 @@
 {
-  "name": "goit-js-hw-10",
+  "name": "CRM-project",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://SofiaProtsiv.github.io/CRM-project",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
+    "build": "parcel build src/*.html --public-url /CRM-project/"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/SofiaProtsiv/CRM-project.git"
   },
   "keywords": [],
   "author": "SofiaProtsiv",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SofiaProtsiv/CRM-project/issues"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
@@ -21,8 +26,6 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
-    "@vimeo/player": "^2.16.1",
-    "lodash.throttle": "^4.1.1",
-    "simplelightbox": "^2.2.0"
+
   }
 }
